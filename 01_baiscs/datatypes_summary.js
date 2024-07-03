@@ -28,3 +28,23 @@ console.log(typeof obj);
 //Symbol -> Symbol
 //BigInt -> Undefined
 
+//*****************MEMORY***************/
+
+//STACK (primitve), HEAP(Non-Primitive)
+
+// Stack -> Copy
+// Heap -> Original
+
+let myhomename="Shivanshu"
+let anothername=myhomename
+console.log(anothername)
+
+let user1={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let user2=user1
+user2.email="Lullu@gmail.com"
+console.log(user2.email)
+console.log(user1.email);
