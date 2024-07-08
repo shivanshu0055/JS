@@ -9,7 +9,6 @@ const user={
     age:19,
     location:"Doon",
     [myS1]:"MyKey1"
-
 }
 
 // console.log(user.name);//1st Way
