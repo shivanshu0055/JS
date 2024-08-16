@@ -12,7 +12,7 @@ switch(month){
         console.log("first");
         break
     default:
-        console.log("HELLO");
+        console.log("HELLOW");
     
 }
 //String aae toh bhi kar sakte case ke age
